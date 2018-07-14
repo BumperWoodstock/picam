@@ -1,3 +1,6 @@
+# borrows heavily from https://gist.github.com/FutureSharks/ab4c22b719cdd894e3b7ffe1f5b8fd91
+
+
 import picamera
 import picamera.array
 import time
