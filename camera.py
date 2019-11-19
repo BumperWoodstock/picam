@@ -57,7 +57,7 @@ def motionDetection():
     while True:
         if scanMotion(224,160):
             print ("motion detected")
-            fname = "/media/pi/PiStorage/PiCamera/image%s.jpg" % time.strftime("%Y%m%d-%H%M%S")
+            fname = "/mnt/PiNAS/PiCam/image%s.jpg" % time.strftime("%Y%m%d-%H%M%S")
             print ("Writing Image to %s" % fname)
             captureImage(fname)
 
